@@ -1,1 +1,1 @@
-ls -l | sed 's/$/\'$'\n''/g'
+ls -l | awk 'NR%2'
